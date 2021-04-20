@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="152.734172">
+<testcase classname="Application validation" name="TC001 Account creation" time="17.997297">
+<failure message="java.lang.AssertionError: expected [Your Account Has Been Created!] but found [Register Account]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:99)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:1037)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:140)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:122)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:629)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:639)&#13;&#10;&#9;at opencartStepDefination.OpencartStepsTest.registration_should_be_successful_message_should_display(OpencartStepsTest.java:114)&#13;&#10;&#9;at ✽.Then Registration should be successful message should display(Opencart.feature:9)&#13;&#10;"><![CDATA[Given Navigate to Cart URL..................................................passed
+When Home page validation...................................................passed
+Then User click on My account and Register..................................passed
+And User fill the Register form from given sheetname "AccountCreation" and rownumber 0.passed
+Then Registration should be successful message should display...............failed
+
+StackTrace:
+java.lang.AssertionError: expected [Your Account Has Been Created!] but found [Register Account]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at opencartStepDefination.OpencartStepsTest.registration_should_be_successful_message_should_display(OpencartStepsTest.java:114)
+	at ✽.Then Registration should be successful message should display(Opencart.feature:9)
+]]></failure>
+</testcase>
+<testcase classname="Application validation" name="TC003 Login validation" time="33.464259">
+<system-out><![CDATA[Given Navigate to Cart URL..................................................passed
+When Home page validation...................................................passed
+Then User click on My account and Login.....................................passed
+And User fill the Login form from given sheetname "Login" and rownumber 0...passed
+Then User should be logged in successfully..................................passed
+And select a product and Add to cart........................................passed
+Then View Cart and RemoveProduct............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application validation" name="TC006 checkout product validation" time="32.873262">
+<system-out><![CDATA[Given Navigate to Cart URL..................................................passed
+When Home page validation...................................................passed
+And select a product and Add to cart........................................passed
+Then checkout with Guest details from given sheetname "GuestDetails" and rownumber 0.passed
+]]></system-out>
+</testcase>
+<testcase classname="Application validation" name="TC016 Return Product validation" time="24.665543">
+<system-out><![CDATA[Given Navigate to Cart URL..................................................passed
+Then User click on My account and Login.....................................passed
+And User fill the Login form from given sheetname "Login" and rownumber 0...passed
+Then User should be logged in successfully..................................passed
+And Navigate to order History and return the product........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application validation" name="TC015 Add to wishlist validation" time="24.885497">
+<system-out><![CDATA[Given Navigate to Cart URL..................................................passed
+Then User click on My account and Login.....................................passed
+And User fill the Login form from given sheetname "Login" and rownumber 0...passed
+Then Select a product and add to wishlist...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application validation" name="TC009 Upload file validation" time="18.848314">
+<system-out><![CDATA[Given Navigate to Cart URL..................................................passed
+Then User click on My account and Login.....................................passed
+And User fill the Login form from given sheetname "Login" and rownumber 0...passed
+Then Select a product from component and add to cart........................passed
+And Fill all the details and upload the file................................passed
+]]></system-out>
+</testcase>
+</testsuite>
