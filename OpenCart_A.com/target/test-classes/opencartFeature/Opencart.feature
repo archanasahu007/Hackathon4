@@ -12,7 +12,7 @@ Feature: Application validation
 |SheetName|RowNumber|
 |AccountCreation|0|
 
- Scenario Outline: TC003 Login validation
+ Scenario Outline: TC011 Login and Remove product validation
   
     Given Navigate to Cart URL
     When Home page validation

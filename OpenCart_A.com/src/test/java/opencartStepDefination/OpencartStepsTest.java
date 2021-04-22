@@ -3,9 +3,6 @@ package opencartStepDefination;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -13,12 +10,9 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
-import org.testng.annotations.Listeners;
-
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -89,7 +83,7 @@ public class OpencartStepsTest {
 		
 		OpencartExcelReader reader = new OpencartExcelReader();
 		List<Map<String,String>> testData = 
-				reader.getData("C:\\Users\\sahua\\OneDrive\\Desktop\\MyCart.xlsx", sheetName);
+				reader.getData("C:\\Users\\sahua\\git\\Opencart.com_Hackathon_TeamF\\OpenCart_A.com\\ExcelData\\MyCart.xlsx", sheetName);
 		
 		String FN = testData.get(rowNumber).get("FirstName");
 		String LN = testData.get(rowNumber).get("LastName");
@@ -110,6 +104,7 @@ public class OpencartStepsTest {
 		String ExpectedTitle = "Your Account Has Been Created!";
 		String ActualTitle = driver.getTitle();
 		Assert.assertEquals(ActualTitle, ExpectedTitle);
+		Reporter.log(ActualTitle);
 	   
 	}
 	
@@ -125,7 +120,7 @@ public class OpencartStepsTest {
 	public void user_fill_the_Login_form_from_given_sheetname_and_rownumber(String sheetName, int rowNumber) throws Throwable {
 		OpencartExcelReader reader = new OpencartExcelReader();
 		List<Map<String,String>> testData = 
-				reader.getData("C:\\Users\\sahua\\OneDrive\\Desktop\\MyCart.xlsx", sheetName);
+				reader.getData("C:\\Users\\sahua\\git\\Opencart.com_Hackathon_TeamF\\OpenCart_A.com\\ExcelData\\MyCart.xlsx", sheetName);
 		
 		String emailid = testData.get(rowNumber).get("Email");
 		String password = testData.get(rowNumber).get("Password");
@@ -164,7 +159,7 @@ public class OpencartStepsTest {
 	   
 	   OpencartExcelReader reader = new OpencartExcelReader();
 		List<Map<String,String>> testData = 
-				reader.getData("C:\\Users\\sahua\\OneDrive\\Desktop\\MyCart.xlsx", sheetName);
+				reader.getData("C:\\Users\\sahua\\git\\Opencart.com_Hackathon_TeamF\\OpenCart_A.com\\ExcelData\\MyCart.xlsx", sheetName);
 		
 		mycart = new OpencartViewCart(driver);
 		

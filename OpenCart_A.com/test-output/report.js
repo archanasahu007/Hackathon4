@@ -65,11 +65,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 396292400,
+  "duration": 1491400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2592249500,
+  "duration": 2433026800,
   "status": "passed"
 });
 formatter.scenario({
@@ -113,21 +113,21 @@ formatter.match({
   "location": "OpencartStepsTest.navigate_to_Cart_URL()"
 });
 formatter.result({
-  "duration": 2652756700,
+  "duration": 1829051400,
   "status": "passed"
 });
 formatter.match({
   "location": "OpencartStepsTest.home_page_validation()"
 });
 formatter.result({
-  "duration": 9020300,
+  "duration": 12802500,
   "status": "passed"
 });
 formatter.match({
   "location": "OpencartStepsTest.user_click_on_My_account_and_Register()"
 });
 formatter.result({
-  "duration": 3490562100,
+  "duration": 3707836400,
   "status": "passed"
 });
 formatter.match({
@@ -144,32 +144,32 @@ formatter.match({
   "location": "OpencartStepsTest.user_fill_the_Register_form_from_given_sheetname_and_rownumber(String,int)"
 });
 formatter.result({
-  "duration": 8112258700,
+  "duration": 8402843300,
   "status": "passed"
 });
 formatter.match({
   "location": "OpencartStepsTest.registration_should_be_successful_message_should_display()"
 });
 formatter.result({
-  "duration": 12079700,
-  "error_message": "java.lang.AssertionError: expected [Your Account Has Been Created!] but found [Register Account]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:629)\r\n\tat org.testng.Assert.assertEquals(Assert.java:639)\r\n\tat opencartStepDefination.OpencartStepsTest.registration_should_be_successful_message_should_display(OpencartStepsTest.java:114)\r\n\tat ✽.Then Registration should be successful message should display(Opencart.feature:9)\r\n",
+  "duration": 8766100,
+  "error_message": "java.lang.AssertionError: expected [Your Account Has Been Created!] but found [Register Account]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:629)\r\n\tat org.testng.Assert.assertEquals(Assert.java:639)\r\n\tat opencartStepDefination.OpencartStepsTest.registration_should_be_successful_message_should_display(OpencartStepsTest.java:106)\r\n\tat ✽.Then Registration should be successful message should display(Opencart.feature:9)\r\n",
   "status": "failed"
 });
 formatter.embedding("image/png", "embedded0.png");
 formatter.write("TC001 Account creation");
 formatter.after({
-  "duration": 98652600,
+  "duration": 86721300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 633425400,
+  "duration": 632105900,
   "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 15,
-  "name": "TC003 Login validation",
+  "name": "TC011 Login and Remove product validation",
   "description": "",
-  "id": "application-validation;tc003-login-validation",
+  "id": "application-validation;tc011-login-and-remove-product-validation",
   "type": "scenario_outline",
   "keyword": "Scenario Outline"
 });
@@ -209,43 +209,43 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 27,
+  "line": 25,
   "name": "",
   "description": "",
-  "id": "application-validation;tc003-login-validation;",
+  "id": "application-validation;tc011-login-and-remove-product-validation;",
   "rows": [
     {
       "cells": [
         "SheetName",
         "RowNumber"
       ],
-      "line": 28,
-      "id": "application-validation;tc003-login-validation;;1"
+      "line": 26,
+      "id": "application-validation;tc011-login-and-remove-product-validation;;1"
     },
     {
       "cells": [
         "Login",
         "0"
       ],
-      "line": 29,
-      "id": "application-validation;tc003-login-validation;;2"
+      "line": 27,
+      "id": "application-validation;tc011-login-and-remove-product-validation;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 497100,
+  "duration": 513800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1162664200,
+  "duration": 1152281300,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 29,
-  "name": "TC003 Login validation",
+  "line": 27,
+  "name": "TC011 Login and Remove product validation",
   "description": "",
-  "id": "application-validation;tc003-login-validation;;2",
+  "id": "application-validation;tc011-login-and-remove-product-validation;;2",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -292,21 +292,21 @@ formatter.match({
   "location": "OpencartStepsTest.navigate_to_Cart_URL()"
 });
 formatter.result({
-  "duration": 3199414300,
+  "duration": 1463448100,
   "status": "passed"
 });
 formatter.match({
   "location": "OpencartStepsTest.home_page_validation()"
 });
 formatter.result({
-  "duration": 6426500,
+  "duration": 4272200,
   "status": "passed"
 });
 formatter.match({
   "location": "OpencartStepsTest.user_click_on_My_account_and_Login()"
 });
 formatter.result({
-  "duration": 3504542500,
+  "duration": 3555746400,
   "status": "passed"
 });
 formatter.match({
@@ -323,40 +323,40 @@ formatter.match({
   "location": "OpencartStepsTest.user_fill_the_Login_form_from_given_sheetname_and_rownumber(String,int)"
 });
 formatter.result({
-  "duration": 5573277500,
+  "duration": 5553338800,
   "status": "passed"
 });
 formatter.match({
   "location": "OpencartStepsTest.user_should_be_logged_in_successfully()"
 });
 formatter.result({
-  "duration": 6898000,
+  "duration": 10385500,
   "status": "passed"
 });
 formatter.match({
   "location": "OpencartStepsTest.select_a_laptop_and_Add_to_cart()"
 });
 formatter.result({
-  "duration": 12101889000,
+  "duration": 10665746400,
   "status": "passed"
 });
 formatter.match({
   "location": "OpencartStepsTest.view_Cart_and_RemoveProduct()"
 });
 formatter.result({
-  "duration": 7266060500,
+  "duration": 23013961600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 24200,
+  "duration": 29200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 642565000,
+  "duration": 647948400,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 31,
+  "line": 29,
   "name": "TC006 checkout product validation",
   "description": "",
   "id": "application-validation;tc006-checkout-product-validation",
@@ -364,27 +364,27 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 33,
+  "line": 31,
   "name": "Navigate to Cart URL",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 34,
+  "line": 32,
   "name": "Home page validation",
   "keyword": "When "
 });
 formatter.step({
-  "line": 35,
+  "line": 33,
   "name": "select a product and Add to cart",
   "keyword": "And "
 });
 formatter.step({
-  "line": 36,
+  "line": 34,
   "name": "checkout with Guest details from given sheetname \"\u003cSheetName\u003e\" and rownumber \u003cRowNumber\u003e",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 38,
+  "line": 36,
   "name": "",
   "description": "",
   "id": "application-validation;tc006-checkout-product-validation;",
@@ -394,7 +394,7 @@ formatter.examples({
         "SheetName",
         "RowNumber"
       ],
-      "line": 39,
+      "line": 37,
       "id": "application-validation;tc006-checkout-product-validation;;1"
     },
     {
@@ -402,22 +402,22 @@ formatter.examples({
         "GuestDetails",
         "0"
       ],
-      "line": 40,
+      "line": 38,
       "id": "application-validation;tc006-checkout-product-validation;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 888800,
+  "duration": 184100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1160635500,
+  "duration": 1153552600,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 40,
+  "line": 38,
   "name": "TC006 checkout product validation",
   "description": "",
   "id": "application-validation;tc006-checkout-product-validation;;2",
@@ -425,22 +425,22 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 33,
+  "line": 31,
   "name": "Navigate to Cart URL",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 34,
+  "line": 32,
   "name": "Home page validation",
   "keyword": "When "
 });
 formatter.step({
-  "line": 35,
+  "line": 33,
   "name": "select a product and Add to cart",
   "keyword": "And "
 });
 formatter.step({
-  "line": 36,
+  "line": 34,
   "name": "checkout with Guest details from given sheetname \"GuestDetails\" and rownumber 0",
   "matchedColumns": [
     0,
@@ -452,21 +452,21 @@ formatter.match({
   "location": "OpencartStepsTest.navigate_to_Cart_URL()"
 });
 formatter.result({
-  "duration": 2608854400,
+  "duration": 1524944800,
   "status": "passed"
 });
 formatter.match({
   "location": "OpencartStepsTest.home_page_validation()"
 });
 formatter.result({
-  "duration": 9241100,
+  "duration": 4415500,
   "status": "passed"
 });
 formatter.match({
   "location": "OpencartStepsTest.select_a_laptop_and_Add_to_cart()"
 });
 formatter.result({
-  "duration": 11240246900,
+  "duration": 10537244700,
   "status": "passed"
 });
 formatter.match({
@@ -483,19 +483,19 @@ formatter.match({
   "location": "OpencartStepsTest.checkout_with_Guest_details_from_given_sheetname_and_rownumber(String,int)"
 });
 formatter.result({
-  "duration": 17205115900,
+  "duration": 18057944900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 36200,
+  "duration": 35900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 648243400,
+  "duration": 619428200,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 42,
+  "line": 40,
   "name": "TC016 Return Product validation",
   "description": "",
   "id": "application-validation;tc016-return-product-validation",
@@ -503,32 +503,32 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 44,
+  "line": 42,
   "name": "Navigate to Cart URL",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 45,
+  "line": 43,
   "name": "User click on My account and Login",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 46,
+  "line": 44,
   "name": "User fill the Login form from given sheetname \"\u003cSheetName\u003e\" and rownumber \u003cRowNumber\u003e",
   "keyword": "And "
 });
 formatter.step({
-  "line": 47,
+  "line": 45,
   "name": "User should be logged in successfully",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 48,
+  "line": 46,
   "name": "Navigate to order History and return the product",
   "keyword": "And "
 });
 formatter.examples({
-  "line": 51,
+  "line": 49,
   "name": "",
   "description": "",
   "id": "application-validation;tc016-return-product-validation;",
@@ -538,7 +538,7 @@ formatter.examples({
         "SheetName",
         "RowNumber"
       ],
-      "line": 52,
+      "line": 50,
       "id": "application-validation;tc016-return-product-validation;;1"
     },
     {
@@ -546,22 +546,22 @@ formatter.examples({
         "Login",
         "0"
       ],
-      "line": 53,
+      "line": 51,
       "id": "application-validation;tc016-return-product-validation;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 259600,
+  "duration": 243200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1152351200,
+  "duration": 1138307200,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 53,
+  "line": 51,
   "name": "TC016 Return Product validation",
   "description": "",
   "id": "application-validation;tc016-return-product-validation;;2",
@@ -569,17 +569,17 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 44,
+  "line": 42,
   "name": "Navigate to Cart URL",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 45,
+  "line": 43,
   "name": "User click on My account and Login",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 46,
+  "line": 44,
   "name": "User fill the Login form from given sheetname \"Login\" and rownumber 0",
   "matchedColumns": [
     0,
@@ -588,12 +588,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 47,
+  "line": 45,
   "name": "User should be logged in successfully",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 48,
+  "line": 46,
   "name": "Navigate to order History and return the product",
   "keyword": "And "
 });
@@ -601,14 +601,14 @@ formatter.match({
   "location": "OpencartStepsTest.navigate_to_Cart_URL()"
 });
 formatter.result({
-  "duration": 3211217300,
+  "duration": 1557404000,
   "status": "passed"
 });
 formatter.match({
   "location": "OpencartStepsTest.user_click_on_My_account_and_Login()"
 });
 formatter.result({
-  "duration": 3677480200,
+  "duration": 3590542300,
   "status": "passed"
 });
 formatter.match({
@@ -625,33 +625,33 @@ formatter.match({
   "location": "OpencartStepsTest.user_fill_the_Login_form_from_given_sheetname_and_rownumber(String,int)"
 });
 formatter.result({
-  "duration": 5521524700,
+  "duration": 5434549300,
   "status": "passed"
 });
 formatter.match({
   "location": "OpencartStepsTest.user_should_be_logged_in_successfully()"
 });
 formatter.result({
-  "duration": 6103400,
+  "duration": 7149300,
   "status": "passed"
 });
 formatter.match({
   "location": "OpencartStepsTest.navigate_to_order_History_and_return_the_product()"
 });
 formatter.result({
-  "duration": 10473172900,
+  "duration": 10384288000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 13600,
+  "duration": 13000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 623420400,
+  "duration": 611137800,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 55,
+  "line": 53,
   "name": "TC015 Add to wishlist validation",
   "description": "",
   "id": "application-validation;tc015-add-to-wishlist-validation",
@@ -659,27 +659,27 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 57,
+  "line": 55,
   "name": "Navigate to Cart URL",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 58,
+  "line": 56,
   "name": "User click on My account and Login",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 59,
+  "line": 57,
   "name": "User fill the Login form from given sheetname \"\u003cSheetName\u003e\" and rownumber \u003cRowNumber\u003e",
   "keyword": "And "
 });
 formatter.step({
-  "line": 60,
+  "line": 58,
   "name": "Select a product and add to wishlist",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 64,
+  "line": 60,
   "name": "",
   "description": "",
   "id": "application-validation;tc015-add-to-wishlist-validation;",
@@ -689,7 +689,7 @@ formatter.examples({
         "SheetName",
         "RowNumber"
       ],
-      "line": 65,
+      "line": 61,
       "id": "application-validation;tc015-add-to-wishlist-validation;;1"
     },
     {
@@ -697,22 +697,22 @@ formatter.examples({
         "Login",
         "0"
       ],
-      "line": 66,
+      "line": 62,
       "id": "application-validation;tc015-add-to-wishlist-validation;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 677800,
+  "duration": 169300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1156681000,
+  "duration": 1145887200,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 66,
+  "line": 62,
   "name": "TC015 Add to wishlist validation",
   "description": "",
   "id": "application-validation;tc015-add-to-wishlist-validation;;2",
@@ -720,17 +720,17 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 57,
+  "line": 55,
   "name": "Navigate to Cart URL",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 58,
+  "line": 56,
   "name": "User click on My account and Login",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 59,
+  "line": 57,
   "name": "User fill the Login form from given sheetname \"Login\" and rownumber 0",
   "matchedColumns": [
     0,
@@ -739,7 +739,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 60,
+  "line": 58,
   "name": "Select a product and add to wishlist",
   "keyword": "Then "
 });
@@ -747,14 +747,14 @@ formatter.match({
   "location": "OpencartStepsTest.navigate_to_Cart_URL()"
 });
 formatter.result({
-  "duration": 2554188700,
+  "duration": 1471005900,
   "status": "passed"
 });
 formatter.match({
   "location": "OpencartStepsTest.user_click_on_My_account_and_Login()"
 });
 formatter.result({
-  "duration": 3593286900,
+  "duration": 3492218600,
   "status": "passed"
 });
 formatter.match({
@@ -771,26 +771,26 @@ formatter.match({
   "location": "OpencartStepsTest.user_fill_the_Login_form_from_given_sheetname_and_rownumber(String,int)"
 });
 formatter.result({
-  "duration": 5480791600,
+  "duration": 5496493600,
   "status": "passed"
 });
 formatter.match({
   "location": "OpencartStepsTest.select_a_product_and_add_to_wishlist()"
 });
 formatter.result({
-  "duration": 11466685600,
+  "duration": 10683160500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 25500,
+  "duration": 12300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 633159900,
+  "duration": 625592400,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 68,
+  "line": 64,
   "name": "TC009 Upload file validation",
   "description": "",
   "id": "application-validation;tc009-upload-file-validation",
@@ -798,32 +798,32 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 70,
+  "line": 66,
   "name": "Navigate to Cart URL",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 71,
+  "line": 67,
   "name": "User click on My account and Login",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 72,
+  "line": 68,
   "name": "User fill the Login form from given sheetname \"\u003cSheetName\u003e\" and rownumber \u003cRowNumber\u003e",
   "keyword": "And "
 });
 formatter.step({
-  "line": 73,
+  "line": 69,
   "name": "Select a product from component and add to cart",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 74,
+  "line": 70,
   "name": "Fill all the details and upload the file",
   "keyword": "And "
 });
 formatter.examples({
-  "line": 78,
+  "line": 72,
   "name": "",
   "description": "",
   "id": "application-validation;tc009-upload-file-validation;",
@@ -833,7 +833,7 @@ formatter.examples({
         "SheetName",
         "RowNumber"
       ],
-      "line": 79,
+      "line": 73,
       "id": "application-validation;tc009-upload-file-validation;;1"
     },
     {
@@ -841,22 +841,22 @@ formatter.examples({
         "Login",
         "0"
       ],
-      "line": 80,
+      "line": 74,
       "id": "application-validation;tc009-upload-file-validation;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 245100,
+  "duration": 344300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1151461100,
+  "duration": 1155098000,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 80,
+  "line": 74,
   "name": "TC009 Upload file validation",
   "description": "",
   "id": "application-validation;tc009-upload-file-validation;;2",
@@ -864,17 +864,17 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 70,
+  "line": 66,
   "name": "Navigate to Cart URL",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 71,
+  "line": 67,
   "name": "User click on My account and Login",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 72,
+  "line": 68,
   "name": "User fill the Login form from given sheetname \"Login\" and rownumber 0",
   "matchedColumns": [
     0,
@@ -883,12 +883,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 73,
+  "line": 69,
   "name": "Select a product from component and add to cart",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 74,
+  "line": 70,
   "name": "Fill all the details and upload the file",
   "keyword": "And "
 });
@@ -896,14 +896,14 @@ formatter.match({
   "location": "OpencartStepsTest.navigate_to_Cart_URL()"
 });
 formatter.result({
-  "duration": 2492353000,
+  "duration": 1624468900,
   "status": "passed"
 });
 formatter.match({
   "location": "OpencartStepsTest.user_click_on_My_account_and_Login()"
 });
 formatter.result({
-  "duration": 3510652100,
+  "duration": 3610195600,
   "status": "passed"
 });
 formatter.match({
@@ -920,29 +920,29 @@ formatter.match({
   "location": "OpencartStepsTest.user_fill_the_Login_form_from_given_sheetname_and_rownumber(String,int)"
 });
 formatter.result({
-  "duration": 5514302800,
+  "duration": 5504724300,
   "status": "passed"
 });
 formatter.match({
   "location": "OpencartStepsTest.select_a_product_from_component_and_add_to_cart()"
 });
 formatter.result({
-  "duration": 4787676800,
+  "duration": 3844276300,
   "status": "passed"
 });
 formatter.match({
   "location": "OpencartStepsTest.fill_all_the_details_and_upload_the_file()"
 });
 formatter.result({
-  "duration": 746782500,
+  "duration": 777406800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 13200,
+  "duration": 12800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 644827300,
+  "duration": 628210600,
   "status": "passed"
 });
 });
