@@ -7,15 +7,15 @@ And User fill the Register form from given sheetname "AccountCreation" and rownu
 Then Registration should be successful message should display...............failed
 
 StackTrace:
-java.lang.AssertionError: expected [Your Account Has Been Created!] but found [Register Account]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
-	at opencartStepDefination.OpencartStepsTest.registration_should_be_successful_message_should_display(OpencartStepsTest.java:106)
-	at ✽.Then Registration should be successful message should display(Opencart.feature:9)
+java.lang.AssertionError: expected [Your Account Has Been Created!] but found [Register Account]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at opencartStepDefination.OpencartStepsTest.registration_should_be_successful_message_should_display(OpencartStepsTest.java:106)
+	at ✽.Then Registration should be successful message should display(Opencart.feature:9)
 ]]></failure>
 </testcase>
 <testcase classname="Application validation" name="TC011 Login and Remove product validation" time="46.067672">
